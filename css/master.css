@@ -3,3 +3,115 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* colors palette */
+.bg-mountain-meadow {
+  background-color: rgb(26,188,156);
+}
+.bg-blush {
+  background-color: rgb(186, 75, 99);
+}
+.bg-eastern-blue {
+  background-color: rgb(30, 164, 182);
+}
+.bg-cod-gray {
+  background-color: rgb(20, 15, 15);
+}
+.bg-dark-eastern-blue {
+  background-color: rgb(28,131,193);
+}
+.bg-torea-bay {
+  background-color: rgb(14, 56, 181);
+}
+.bg-rodeo-dust {
+  background-color: rgb(204, 178, 163);
+}
+
+/* header */
+header {
+  position: relative;
+}
+.header-top {
+  width: 100%;
+  background-color: rgb(44, 62, 80);
+  height: 10vh;
+  line-height: 10vh;
+  /* position: fixed;
+  top: 0;
+  z-index: 999; */
+}
+.header-top .row .col-md-4 {
+  text-transform: uppercase;
+}
+.row.nav-row {
+  text-align: right;
+}
+
+/* jumbo */
+.jumbo.container-fluid {
+  height: 80vh;
+}
+.jumbo.container-fluid .row {
+  height: 100%;
+}
+.jumbo .col-md-6 {
+  height: 100%;
+}
+
+/* main */
+/* Portfolio section */
+#portfolio {
+  padding: 10vh;
+}
+#portfolio .row .col-md-4 {
+  height: 35vh;
+  padding: 10px;
+}
+.col.md-4 .element {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* About section */
+/* Contact me section */
+/* footer */
+/* info */
+/* copyright */
+
+
+/* SMARTPHONE */
+  #portfolio {
+    padding: 5vh;
+  }
+  #portfolio .row .col-xs-12 {
+    height: 60vh;
+    padding: 10px;
+  }
+  .col-xs-12 .element {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+/* TABLET */
+  #portfolio {
+    padding: 10vh;
+  }
+  #portfolio .row .col-xs-12 {
+    height: 35vh;
+    padding: 10px;
+  }
+  .col-xs-12 .element {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+/* debug */
+.header-top .container .col-md-4 {
+  background-color: rgb(30, 164, 182);
+}
+.jumbo .col-md-6 {
+  background-color: lightyellow;
+}
