@@ -5,11 +5,19 @@
 }
 
 /* utility */
+  /* padding */
 .padding_top_standard {
   padding-top: 30px;
 }
 .padding_bottom_standard {
   padding-bottom: 30px;
+}
+  /* fonts */
+body {
+  font-family: 'Lato', sans-serif;
+  }
+.ms_font_montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
   /* colors palette */
 .bg_pickled_bluewood {
@@ -39,6 +47,17 @@
 .bg_fiord {
   background-color: rgb(58, 84, 109);
 }
+  /* color text palette */
+.ms_text_white {
+  color: rgb(255,255,255);
+}
+.ms_text_fiord {
+  color: rgb(58, 84, 109);
+}
+  /* form */
+.ms_border_none {
+  border-style: none;
+}
 /* fine utility */
 
 /* header */
@@ -65,8 +84,10 @@ header {
   /* Portfolio section */
 .element {
   border-radius: 10px;
-  padding: 20px 20px;
   margin: 20px 0;
+}
+.element > img{
+  width: 80%;
 }
   /* About section */
 
