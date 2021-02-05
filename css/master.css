@@ -12,6 +12,12 @@
 .padding_bottom_standard {
   padding-bottom: 30px;
 }
+.padding_top_20 {
+  padding-top: 20px;
+}
+.padding_left_10 {
+  padding-left: 10px;
+}
   /* fonts */
 body {
   font-family: 'Lato', sans-serif;
@@ -64,6 +70,10 @@ a:hover {
   color: rgb(26,188,156);
   text-decoration: none;
 }
+  /* font awesome */
+.ms_font_awesome {
+
+}
   /* form */
 .ms_border_none {
   border-style: none;
@@ -80,6 +90,10 @@ header {
   height: 80px;
   line-height: 80px;
 }
+  /* brand */
+.ms_brand_position {
+  margin-top: 15px;
+}
   /* nav */
 .ms_nav_padding {
   padding-left: 20px;
@@ -92,19 +106,45 @@ header {
   width: 50%;
   margin: 0 auto;
 }
+#ms_avatar {
+  max-width: 250px;
+}
+.ms_star_bar {
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  line-height: 2px;
+  border-radius: 3px;
+  vertical-align: middle;
+  background-color: rgb(255,255,255);
+  margin: 0 5px;
+}
+.ms_jumbotron .col-xs-12 h3 {
+  font-size: 12px;
+}
 /* fine header */
 
 /* main */
   /* Portfolio section */
+.ms_bar_fiord {
+  background-color: rgb(58, 84, 109);
+}
 .element {
   border-radius: 10px;
   margin: 20px 0;
   position: relative;
 }
-.element > img{
-  width: 80%;
+.element:hover .ms_hover_green{
+  display: block;
 }
-.ms_overlay {
+.element > img{
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.ms_hover_green {
   width: 100%;
   height: 100%;
   background-color: rgba(26,188,156,0.8);
@@ -112,23 +152,57 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  display: none;
 }
 .ms_plus_icon {
+  font-size: 70px;
   color: rgb(255,255,255);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-  /* About section */
 
+  /* About section */
+.ms_button_download {
+  color: rgb(255,255,255);
+  border-color: rgb(255,255,255);
+  background-color: transparent;
+}
+.ms_button_download:hover {
+  border-color: rgb(255,255,255);
+  background-color: rgb(255,255,255);
+}
   /* Contact me section */
+.row .col-xs-12 form > input {
+  padding: 10px 0 30px 0;
+  border: transparent;
+  box-shadow: none;
+  font-size: 20px;
+  color: rgb(58, 84, 109);
+}
 /* fine main */
 
 /* footer */
   /* info */
+.ms_footer_top .text {
+  margin-bottom: 20px;
+}
 .ms_special_anchor {
   color: rgb(26,188,156);
+}
+.ms_social_icon i {
+  width: 50px;
+  padding: 15px;
+  margin-left: 5px;
+  font-size: 20px;
+  border: 1px solid rgb(255,255,255);
+  border-radius: 50%;
+}
+.ms_social_icon i:hover {
+  background-color: rgb(255,255,255);
+  border-color: rgb(255,255,255);
+  color: rgb(0,0,0);
 }
 .ms_special_anchor:hover {
   color: rgb(79, 158, 142);
@@ -136,3 +210,10 @@ header {
 }
   /* copyright */
 /* fine footer */
+
+/* TABLET */
+@media (min-width: 768px) {
+  .ms_jumbotron .col-xs-12 h3 {
+    font-size: 15px;
+  }
+}
